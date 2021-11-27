@@ -1,5 +1,3 @@
-import { MotionEndEventHandler } from 'rc-motion';
-
 const getCollapsedHeight = () => ({ height: 0, opacity: 0 });
 const getRealHeight = (node) => ({ height: node.scrollHeight, opacity: 1 });
 const getCurrentHeight = (node) => ({ height: node.offsetHeight });
