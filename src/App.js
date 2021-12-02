@@ -1,4 +1,4 @@
-import logo from './logo.png';
+import logo from './Eternity.svg';
 import './App.css';
 import Collapse, { Panel } from 'rc-collapse';
 import motion from './motionUtils';
