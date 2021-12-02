@@ -17,7 +17,7 @@ function App() {
       <header className="App-header">
         <div className="container header-container">
           <img src={logo} className="App-logo" alt="logo" />
-{/*          <div className="logo-title">Eternity Venture</div>*/}
+{          <div className="logo-title">Eternity Venture</div> }
           <ul>
             <li onClick={onClick('about')}>About Us</li>
             <li onClick={onClick('what')}>What We Do</li>
