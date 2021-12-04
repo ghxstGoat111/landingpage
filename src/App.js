@@ -8,33 +8,48 @@ function App() {
   const onClick = id => e => {
     e.preventDefault()
     const target = document.getElementById(id);
-    target.scrollIntoView({behavior: "smooth", block: "center", inline: "nearest"});
+    target.scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
   }
   return (
     <div className="App">
+      <div id="top"></div>
       <header className="App-header">
         <div className="container header-container">
           <img src={logo} className="App-logo" alt="logo" />
           {/* <div className="logo-title">Eternity Venture</div> */}
           <ul>
-            <li onClick={onClick('about')}>About Us</li>
+            <li onClick={onClick('top')}>About Us</li>
             <li onClick={onClick('what')}>What We Do</li>
             <li onClick={onClick('principles')}>Principles</li>
             <li onClick={onClick('contact')}>Contact</li>
           </ul>
         </div>
       </header>
-
       <main className="container">
         <div className="content-1">
           <div>
             <h2 id="about">About Us</h2>
             <p>ParaFi Capital is an alternative investment firm focused on blockchain and decentralized finance markets. We take a unique multidisciplinary approach to identifying untapped opportunities through a research intensive, long-term focused investment framework.</p>
+            <div className="block">
+              <div>
+                <h1>2021</h1>
+                <p>Year Founded</p>
+              </div>
+              <div>
+                <h1>CT</h1>
+                <p>Headquarters</p>
+              </div>
+            </div>
           </div>
           <p>Our team has deep backgrounds in finance and technology with over a decade of cumulative institutional investing experience at leading asset management firms KKR, Blackstone, and JP Morgan. We are intellectually curious, analytically rigorous, and strive for excellence.</p>
-          <h2>What We Do</h2>
-          <p id="what">We invest behind digital assets that address tangible use cases, demonstrate signs of product-market fit, and exhibit compelling cryptoeconomic models. We use fundamental analysis to select investments based on thorough, institutional due diligence, examining token valuation, technical protocol level research, on-chain data analytics, and active engagement with management and developer teams.</p>
+          <div className="black">
+            <h3>Investors</h3>
+            <p>ParaFi Capital's investors include leading institutional allocators, family offices, HNWIs, and venture capital firms, including Bain Capital Ventures LLC and Galaxy Digital Ventures LLC as strategic partners 1.</p>
+          </div>
 
+
+          <h2 id="what">What We Do</h2>
+          <p>We invest behind digital assets that address tangible use cases, demonstrate signs of product-market fit, and exhibit compelling cryptoeconomic models. We use fundamental analysis to select investments based on thorough, institutional due diligence, examining token valuation, technical protocol level research, on-chain data analytics, and active engagement with management and developer teams.</p>
           <div className="sub-title">Investment Approach</div>
           <div className="normal"><span className="arrow"></span>Technology and finance are at our core. We build and leverage technology to decode market dynamics. We continuously seek to harness novel technology systems and software across our firm—from risk management, trade execution, custody, and day-to-day operations.</div>
           <div className="sub-title">Technology</div>
