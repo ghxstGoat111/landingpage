@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import Collapse, { Panel } from 'rc-collapse';
-import motion from './motionUtils';
+// import Collapse, { Panel } from 'rc-collapse';
+// import motion from './motionUtils';
 import 'rc-collapse/assets/index.css';
 
 function App() {
