@@ -1,4 +1,4 @@
-import logo from './Eternity.svg';
+import logo from './logo.svg';
 import './App.css';
 import Collapse, { Panel } from 'rc-collapse';
 import motion from './motionUtils';
@@ -12,12 +12,10 @@ function App() {
   }
   return (
     <div className="App">
-      <div className="empty"></div>
-      
       <header className="App-header">
         <div className="container header-container">
           <img src={logo} className="App-logo" alt="logo" />
-{          <div className="logo-title">Eternity Venture</div> }
+          {/* <div className="logo-title">Eternity Venture</div> */}
           <ul>
             <li onClick={onClick('about')}>About Us</li>
             <li onClick={onClick('what')}>What We Do</li>
@@ -29,58 +27,38 @@ function App() {
 
       <main className="container">
         <div className="content-1">
-          <h2 id="about">About Us</h2>
-          <p>ParaFi Capital is an alternative investment firm focused on blockchain and decentralized finance markets. We take a unique multidisciplinary approach to identifying untapped opportunities through a research intensive, long-term focused investment framework.</p>
-          <div className="block">
-            <div>
-              <h1>2021</h1>
-              <p>Year Founded</p>
-            </div>
-            <div>
-              <h1>CT</h1>
-              <p>Headquarters</p>
-            </div>
+          <div>
+            <h2 id="about">About Us</h2>
+            <p>ParaFi Capital is an alternative investment firm focused on blockchain and decentralized finance markets. We take a unique multidisciplinary approach to identifying untapped opportunities through a research intensive, long-term focused investment framework.</p>
           </div>
           <p>Our team has deep backgrounds in finance and technology with over a decade of cumulative institutional investing experience at leading asset management firms KKR, Blackstone, and JP Morgan. We are intellectually curious, analytically rigorous, and strive for excellence.</p>
-          <div className="black">
-            <h3>Investors</h3>
-            <p>ParaFi Capital's investors include leading institutional allocators, family offices, HNWIs, and venture capital firms, including Bain Capital Ventures LLC and Galaxy Digital Ventures LLC as strategic partners 1.</p>
-          </div>
-          <div className="empty"></div>
           <h2>What We Do</h2>
           <p id="what">We invest behind digital assets that address tangible use cases, demonstrate signs of product-market fit, and exhibit compelling cryptoeconomic models. We use fundamental analysis to select investments based on thorough, institutional due diligence, examining token valuation, technical protocol level research, on-chain data analytics, and active engagement with management and developer teams.</p>
-        
 
-          <div className="shrinkblock">
+          <div className="sub-title">Investment Approach</div>
+          <div className="normal"><span className="arrow"></span>Technology and finance are at our core. We build and leverage technology to decode market dynamics. We continuously seek to harness novel technology systems and software across our firm—from risk management, trade execution, custody, and day-to-day operations.</div>
+          <div className="sub-title">Technology</div>
+          <div className="normal"><span className="arrow"></span>this is panel content2 or other</div>
+          {/* <div className="shrinkblock">
             <Collapse accordion={false} openMotion={motion} style={{color: '#252525', fontWeight: 200, background: 'transparent', border: 'none'}}>
               <Panel header="Investment Approach" headerClass="my-header-class">Technology and finance are at our core. We build and leverage technology to decode market dynamics. We continuously seek to harness novel technology systems and software across our firm—from risk management, trade execution, custody, and day-to-day operations.</Panel>
               <Panel header="Technology">this is panel content2 or other</Panel>
             </Collapse>
-          </div>
+          </div> */}
 
-          <div className="empty"></div>
-
-          <h2>Principles</h2>
-          <h3>Analytical Rigor</h3>
-          <p>We emphasize analytical and quantitative rigor in our investment process. We thrive as problem solvers and excel at decomposing complex cryptoeconomic protocols and behavioral models.</p>
-          <h3 id="principles">Analytical Rigor</h3>
-          <p>We emphasize analytical and quantitative rigor in our investment process. We thrive as problem solvers and excel at decomposing complex cryptoeconomic protocols and behavioral models.</p>
-          <h3>Analytical Rigor</h3>
+          <h2 id="principles">Principles</h2>
+          <div className="sub-title">Analytical Rigor</div>
           <p>We emphasize analytical and quantitative rigor in our investment process. We thrive as problem solvers and excel at decomposing complex cryptoeconomic protocols and behavioral models.</p>
           
-          <div className="empty"></div>
           <div className="contact">
             <h2 id="contact">Contract</h2>
             <p>For general inquiries, please contact <a href="mailto:info@parafi.capital">info@parafi.capital</a>.</p>
-            <p>
-              <b>Greenwich Headquarters</b><br/>
-              500 West Putnam Avenue<br/>
-              Greenwich, CT 06830
-            </p>
+            <div>
+              <div className="contract-item">Greenwich Headquarters</div>
+              <div className="contract-item">500 West Putnam Avenue</div>
+              <div className="contract-item">Greenwich, CT 06830</div>
+            </div>
           </div>
-          <div className="empty"></div>
-          <div className="empty"></div>
-          <div className="empty"></div>
         </div>
       </main>
 
