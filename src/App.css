@@ -9,31 +9,38 @@ body {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    background: #222;
 }
 p {
   line-height: 1.5;
 }
 h2 {
+  margin-top: 80px;
+  margin-bottom: 30px;
+  padding: 10px 0 20px 0;
   font-weight: 100;
+  border-bottom: 1px solid rgb(255 255 255 / 15%);
 }
 h3 {
   line-height: 1.5;
-  font-size: calc(16px + 5 * ((100vw - 200px) / 1280));
-  border-bottom: 1px solid #000;
+  /* font-size: calc(16px + 5 * ((100vw - 200px) / 1280)); */
   font-weight: 600;
   margin-bottom: 0;
 }
 h3 + p {
   margin-top: 5px;
 }
+a {
+  color: #4fbbff;
+}
 
 .App {
   font: inherit;
-  font-size: calc(4px + 24 * ( (100vw - 200px) / 1280));
-  color: #252525;
+  /* font-size: calc(4px + 24 * ( (100vw - 200px) / 1280)); */
+  color: #fff;
 }
 .App-logo {
-  width: 400px;
+  width: 100px;
   pointer-events: none;
 }
 .App-header {
@@ -41,19 +48,18 @@ h3 + p {
   top: 0;
   z-index: 1020;
   padding: 10px 0 10px 0;
-  background-color: #fff;
-  border-bottom: 1px solid #eee;
+  background: #222;
+  border-bottom: 1px solid rgb(255 255 255 / 15%);
 }
 .header-container ul {
   display: flex;
   list-style: none;
-  font-size: 18px;
+  font-size: 14px;
   font-weight: 400;
 }
 .header-container ul li {
   padding-right: 2rem;
   cursor: pointer;
-  color: #aaa;
   -webkit-tap-highlight-color:rgba(0,0,0,0);
   -webkit-tap-highlight-color: transparent;
   outline:none;
@@ -61,7 +67,7 @@ h3 + p {
   text-decoration: none;
 }
 .header-container ul li:hover {
-  color: #252525;
+  color: #4fbbff;
 }
 .rc-collapse>.rc-collapse-item {
   -webkit-tap-highlight-color:rgba(0,0,0,0);
@@ -81,37 +87,20 @@ h3 + p {
   margin-left: 1rem;
   color: #aaa;
 }
-.empty {
-  height: 50px;
-}
 .container {
   margin: 0 auto;
 }
 .content-1 {
-  max-width: 70%;
   margin: 0 auto;
 }
-.block {
-  display: flex;
-}
-
-.block div {
-  padding: 50px;
-}
-.block div h1{
-  padding: 0;
-  margin: 0;
-}
-.block div p {
-  font-size: 16px;
-}
-.black {
-  background: #252525;
-  color: white;
-  padding: 1rem 1rem 1rem 2rem;
-}
-.black p {
-  font-size: 18px;
+.arrow {
+  margin-right: 10px;
+  display: inline-block;
+  width: 0; 
+  height: 0;
+  border-width: 6px;
+  border-style: solid;
+  border-color: transparent transparent transparent #fff;
 }
 .contact p {
   font: inherit;
@@ -119,50 +108,23 @@ h3 + p {
   font-size: calc(9px + 13 * ( (100vw - 200px) / 1280));
   line-height: 1.5;
 }
+.sub-title {
+  font-size: 18px;
+  margin: 30px 0 10px 0;
+}
+.contract-item {
+  line-height: 1.5;
+}
 footer {
-  color: #666;
+  margin-top: 60px;
   font-size: 13px;
   line-height: 1.5;
 }
 footer .container {
-    border-style:solid;
-    border: 0;
-    border-top: 1px solid #eee;
     padding: 2rem 0;
 }
 footer .container p {
   margin-bottom: 1rem;
-}
-.rc-collapse-content {
-    padding-left: 24px;
-    background: #234a6f!important;
-    color: #fff!important;
-    font-size: calc(9px + 13 * ( (100vw - 200px) / 1280))!important;
-    font-weight: 400;
-    -webkit-transition: 1s;
-    transition: 1s;
-    line-height: 1.5;
-    padding: 1rem 2rem!important;
-}
-.rc-collapse > .rc-collapse-item {
-    border-top: none!important;
-}
-.rc-collapse > .rc-collapse-item {
-  font-size: calc(16px + 5 * ((100vw - 200px) / 1280))!important;
-  padding-left: 24px!important;
-  padding-top: 10px!important;
-  padding-bottom: 10px!important;
-  color: #252525!important;
-}
-.rc-collapse > .rc-collapse-item > .rc-collapse-header .arrow {
-      border-top: 5px solid transparent!important;
-      border-bottom: 5px solid transparent!important;
-      border-left: 8px solid #1967b3!important;
-}
-.rc-collapse > .rc-collapse-item-active > .rc-collapse-header .arrow {
-  border-left: 5px solid transparent!important;
-  border-right: 5px solid transparent!important;
-  border-top: 8px solid #1967b3!important;
 }
 
 @keyframes react-reveal {
@@ -175,8 +137,22 @@ footer .container p {
 }
 
 @media screen and (max-width: 476px) {
+  h2 {
+    font-size: 16px;
+    margin-top: 50px;
+  }
+  p {
+    font-size: 14px;
+  }
   .container {
-      max-width: 540px;
+    max-width: 540px;
+  }
+  .sub-title {
+    font-size: 16px;
+  }
+  .normal, .contract-item {
+    font-size: 14px;
+    line-height: 1.5;
   }
   main{
     font-size: 18px;
@@ -187,17 +163,8 @@ footer .container p {
   .container {
     width: 90vw;
   }
-  .block div {
-      padding: 2rem;
-  }
   .shrinkblock {
     font-size: 18px!important;
-  }
-  .rc-collapse > .rc-collapse-item {
-    padding: 1rem;
-  }
-  .rc-collapse-content {
-    font-size: 16px!important;
   }
   .contact p {
     font-size: 16px;
@@ -207,9 +174,6 @@ footer .container p {
   }
   .header-container .App-logo {
     height: 3rem;
-  }
-  .empty {
-    height: 2rem;
   }
 }
 @media screen and (min-width: 768px) {
