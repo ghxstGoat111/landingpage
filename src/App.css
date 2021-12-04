@@ -168,7 +168,8 @@ footer .container p {
 @media screen and (max-width: 476px) {
   h2 {
     font-size: 16px;
-    margin-top: 50px;
+    margin-top: 10px;
+    padding-top: 2rem;
   }
   p {
     font-size: 14px;
@@ -203,6 +204,12 @@ footer .container p {
   }
   .header-container .App-logo {
     height: 3rem;
+  }
+  .block {
+    display: none;
+  }
+  .black {
+    display: none;
   }
 }
 @media screen and (min-width: 768px) {
