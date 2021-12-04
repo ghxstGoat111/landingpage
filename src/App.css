@@ -40,14 +40,14 @@ a {
   color: #fff;
 }
 .App-logo {
-  width: 100px;
+  width: 160px;
   pointer-events: none;
 }
 .App-header {
   position: sticky;
   top: 0;
   z-index: 1020;
-  padding: 10px 0 10px 0;
+  padding: 30px 0 30px 0;
   background: #222;
   border-bottom: 1px solid rgb(255 255 255 / 15%);
 }
