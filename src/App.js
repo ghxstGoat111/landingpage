@@ -42,12 +42,12 @@ function App() {
             </div>
           </div>
           <p>Our team has deep backgrounds in top tier crypto exchanges and global connections with venture capitals, game guilds and exclusive projects within the ecosystem. We are curious, analytical, and strive for learning, growing and exceeding.</p>
-            <div className="row" style={{marginTop:'30px',marginBottom:'30px'}}>
+            <div className="row" style={{marginTop:'300px',marginBottom:'300px'}}>
         <div className="col">
           <div className="d-flex justify-content-end">
               <img
                 src="https://www.ltw.org/-/media/Images/LTW/Read/My%20Devotional/2019/05/edev_051819_2000x833%20jpg.jpg?h=833&w=2000&hash=0DC4037F1F2682AD1E1386C40584566B"
-                style={{height: '30px'}}
+                style={{height: '50px'}}
                 alt=""
             />
           </div>
