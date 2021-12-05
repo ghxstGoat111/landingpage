@@ -56,7 +56,7 @@ function App() {
 
 
           <h2 id="what">What We Do</h2>
-          <p>We invest behind digital assets that address tangible use cases, demonstrate signs of product-market fit, and exhibit compelling cryptoeconomic models. We use fundamental analysis to select investments based on thorough, institutional due diligence, examining token valuation, technical protocol level research, on-chain data analytics, and active engagement with management and developer teams.</p>
+          <p>We focus on </p>
           <div className="sub-title">Investment Approach</div>
           <div className="normal"><span className="arrow"></span>Technology and finance are at our core. We build and leverage technology to decode market dynamics. We continuously seek to harness novel technology systems and software across our firm—from risk management, trade execution, custody, and day-to-day operations.</div>
           <div className="sub-title">Technology</div>
