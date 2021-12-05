@@ -46,7 +46,7 @@ function App() {
         <div className="col">
           <div className="d-flex justify-content-end">
               <img
-                src="https://lh3.googleusercontent.com/gLUJmZaNklu79UkRHR5oHP5eOP6NiRBXoP7mk36LHul-41QqZuh2NVYV_sSN6JLczaPmLO5ZVqZPNFMtPw4JhVR78ctqmJGADPyOlp8pG6r_4J1c4UbQ0aQcA2zneUikWJ3kThGX"
+                src="https://www.ltw.org/-/media/Images/LTW/Read/My%20Devotional/2019/05/edev_051819_2000x833%20jpg.jpg?h=833&w=2000&hash=0DC4037F1F2682AD1E1386C40584566B"
                 style={{height: '30px'}}
                 alt=""
             />
