@@ -20,7 +20,7 @@ function App() {
           <ul>
             <li onClick={onClick('top')}>About Us</li>
             <li onClick={onClick('what')}>What We Do</li>
-            <li onClick={onClick('principles')}>Principles</li>
+            <li onClick={onClick('strategy')}>Strategies</li>
             <li onClick={onClick('contact')}>Contact</li>
           </ul>
         </div>
