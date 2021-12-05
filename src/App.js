@@ -43,7 +43,7 @@ function App() {
           </div>
           <p>Our team has deep backgrounds in top tier crypto exchanges and global connections with venture capitals, game guilds and exclusive projects within the ecosystem. We are curious, analytical, and strive for learning, growing and exceeding.</p>
           <div className="black">
-            <h3>Investors</h3>
+          //  <h3>Investors</h3>
             <p>ParaFi Capital's investors include leading institutional allocators, family offices, HNWIs, and venture capital firms, including Bain Capital Ventures LLC and Galaxy Digital Ventures LLC as strategic partners 1.</p>
           </div>
 
