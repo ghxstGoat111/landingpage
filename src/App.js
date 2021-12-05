@@ -20,7 +20,7 @@ function App() {
           <ul>
             <li onClick={onClick('top')}>About Us</li>
             <li onClick={onClick('what')}>What We Do</li>
-            <li onClick={onClick('strategy')}>Strategies</li>
+            <li onClick={onClick('strategy')}>Strategy</li>
             <li onClick={onClick('contact')}>Contact</li>
           </ul>
         </div>
@@ -66,7 +66,7 @@ function App() {
             </Collapse>
           </div> */}
 
-          <h2 id="strategy">Strategies</h2>
+          <h2 id="strategy">Strategy</h2>
           <div className="sub-title">Business Analytics</div>
           <p>We emphasize analytical and quantitative rigor in our investment process. We thrive as problem solvers and excel at decomposing complex cryptoeconomic protocols and behavioral models.</p>
           
