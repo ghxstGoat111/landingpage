@@ -69,9 +69,6 @@ function App() {
             <h2 id="contact">Contract</h2>
             <p>For general inquiries, please contact <a href="mailto:info@eternityventures.io">info@eternityventures.io</a>.</p>
             <div>
-              <div className="contract-item">Greenwich Headquarters</div>
-              <div className="contract-item">500 West Putnam Avenue</div>
-              <div className="contract-item">Greenwich, CT 06830</div>
             </div>
           </div>
         </div>
