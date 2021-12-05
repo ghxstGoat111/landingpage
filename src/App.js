@@ -66,8 +66,8 @@ function App() {
             </Collapse>
           </div> */}
 
-          <h2 id="principles">Principles</h2>
-          <div className="sub-title">Analytical Rigor</div>
+          <h2 id="strategy">Strategies</h2>
+          <div className="sub-title">Business Analytics</div>
           <p>We emphasize analytical and quantitative rigor in our investment process. We thrive as problem solvers and excel at decomposing complex cryptoeconomic protocols and behavioral models.</p>
           
           <div className="contact">
