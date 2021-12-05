@@ -29,7 +29,7 @@ function App() {
         <div className="content-1">
           <div>
             <h2 id="about">About Us</h2>
-            <p>ParaFi Capital is an alternative investment firm focused on blockchain and decentralized finance markets. We take a unique multidisciplinary approach to identifying untapped opportunities through a research intensive, long-term focused investment framework.</p>
+            <p>Eternity Ventures is a crypto native organization focused on blockchain and decentralized finance markets. We provide practical blockchain analytics insights and Data-as-a-Service from the team. Extensive experience with tokens and projects help us to design and deliver expertise based on your goal and ecosystem requirements.</p>
             <div className="block">
               <div>
                 <h1>2021</h1>
