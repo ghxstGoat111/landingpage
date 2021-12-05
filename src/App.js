@@ -52,6 +52,7 @@ function App() {
           </div>
         </div>
       </div>
+      </div>
 
 
           <h2 id="what">What We Do</h2>
