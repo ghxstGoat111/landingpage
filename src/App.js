@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
- import Collapse, { Panel } from 'rc-collapse';
- import motion from './motionUtils';
+ // import Collapse, { Panel } from 'rc-collapse';
+ // import motion from './motionUtils';
 import 'rc-collapse/assets/index.css';
 
 function App() {
@@ -42,18 +42,17 @@ function App() {
             </div>
           </div>
           <p>Our team has deep backgrounds in top tier crypto exchanges and global connections with venture capitals, game guilds and exclusive projects within the ecosystem. We are curious, analytical, and strive for learning, growing and exceeding.</p>
-            <div class="row" style="margin-top:30px; margin-bottom:30px">
-        <div class="col">
-          <div class="d-flex justify-content-end">
+            <div className="row" style={{marginTop:'30px',marginBottom:'30px'}}>
+        <div className="col">
+          <div className="d-flex justify-content-end">
               <img
                 src="https://lh3.googleusercontent.com/gLUJmZaNklu79UkRHR5oHP5eOP6NiRBXoP7mk36LHul-41QqZuh2NVYV_sSN6JLczaPmLO5ZVqZPNFMtPw4JhVR78ctqmJGADPyOlp8pG6r_4J1c4UbQ0aQcA2zneUikWJ3kThGX"
-                style="height: 30px;"
+                style={{height: '30px'}}
+                alt=""
             />
           </div>
         </div>
       </div>
-
-
           <h2 id="what">What We Do</h2>
           <p>We focus on </p>
           <div className="sub-title">Investment Approach</div>
