@@ -47,7 +47,7 @@ function App() {
           <div className="d-flex justify-content-end">
               <img
                 src="https://www.ltw.org/-/media/Images/LTW/Read/My%20Devotional/2019/05/edev_051819_2000x833%20jpg.jpg?h=833&w=2000&hash=0DC4037F1F2682AD1E1386C40584566B"
-                style={{height: '100px',width: '1000px'}}
+                style={{height: '300px',width: '1500px'}}
                 alt=""
             />
           </div>
