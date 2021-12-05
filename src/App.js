@@ -36,12 +36,12 @@ function App() {
                 <p>Year Founded</p>
               </div>
               <div>
-                <h1>CT</h1>
+                <h1>HK</h1>
                 <p>Headquarters</p>
               </div>
             </div>
           </div>
-          <p>Our team has deep backgrounds in finance and technology with over a decade of cumulative institutional investing experience at leading asset management firms KKR, Blackstone, and JP Morgan. We are intellectually curious, analytically rigorous, and strive for excellence.</p>
+          <p>Our team has deep backgrounds in top tier crypto exchanges and global connections with venture capitals, game guilds and exclusive projects within the ecosystem. We are curious, analytical, and strive for learning, growing and exceeding.</p>
           <div className="black">
             <h3>Investors</h3>
             <p>ParaFi Capital's investors include leading institutional allocators, family offices, HNWIs, and venture capital firms, including Bain Capital Ventures LLC and Galaxy Digital Ventures LLC as strategic partners 1.</p>
