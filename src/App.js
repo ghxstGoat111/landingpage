@@ -67,7 +67,7 @@ function App() {
           
           <div className="contact">
             <h2 id="contact">Contract</h2>
-            <p>For general inquiries, please contact <a href="mailto:info@parafi.capital">info@parafi.capital</a>.</p>
+            <p>For general inquiries, please contact <a href="mailto:info@eternityventures.io">info@eternityventures.io</a>.</p>
             <div>
               <div className="contract-item">Greenwich Headquarters</div>
               <div className="contract-item">500 West Putnam Avenue</div>
@@ -79,13 +79,13 @@ function App() {
 
       <footer>
         <div className="container">
-        <p>1. It is not known whether the investors listed or any other investors of ParaFi Capital LP approve or disapprove of the advisory services provided. Investor types are included to provide a representative example, and no performance based criteria was used in determining which investors to include in this section. Bain Capital Ventures LP and Galaxy Digital Ventures LLC are listed as a result of their strategic investment in ParaFi Capital LP. Nothing in this section may be considered an endorsement or recommendation.
+        <p>1. It is not known whether the investors listed or any other investors of Eternity Ventures approve or disapprove of the advisory services provided. Investor types are included to provide a representative example, and no performance based criteria was used in determining which investors to include in this section. Nothing in this section may be considered an endorsement or recommendation.
         </p><p>
-        <b>Important Disclaimer:</b> This site is not intended to provide any investment, financial, legal, regulatory, accounting, tax or similar advice, and nothing on this site should be construed as a recommendation by ParaFi Capital LP (“ParaFi Capital”), its affiliates, or any third party, to acquire or dispose of any investment or security, or to engage in any investment strategy or transaction. An investment in any strategy involves a high degree of risk and there is always the possibility of loss, including the loss of principal. Nothing in this site may be considered as an offer or solicitation to purchase or sell securities or other services.
+        <b>Important Disclaimer:</b> This site is not intended to provide any investment, financial, legal, regulatory, accounting, tax or similar advice, and nothing on this site should be construed as a recommendation by Eternity Ventures, its affiliates, or any third party, to acquire or dispose of any investment or security, or to engage in any investment strategy or transaction. An investment in any strategy involves a high degree of risk and there is always the possibility of loss, including the loss of principal. Nothing in this site may be considered as an offer or solicitation to purchase or sell securities or other services.
         </p>
         <p>
         By accessing this website and any materials presented herein (the "site"), you accept in their entirety and without modification the Terms of Use and Privacy Policy conditions pertaining to the use of the site. ParaFi Capital reserves the right to change the terms, conditions and notices under which this site is offered without notice at any time. You acknowledge and agree that ParaFi Capital may restrict, suspend or terminate the terms of use or your access to, and use of, all or any part of the site, including any links to third-party sites, at any time, with or without cause, including but not limited to any breach of the terms of use as determined in ParaFi Capital's absolute discretion, and without prior notice or liability. Each use of the site constitutes your agreement to be bound by the then-current terms and conditions set forth in these terms of use. If you do not agree with the terms of use, you are not required to exit and cease the use of this site.
-        </p><p>2018 - 2021 © ParaFi Capital LP</p>
+        </p><p>2021 © Etertnity Ventures</p>
         </div>
       </footer>
     </div>
